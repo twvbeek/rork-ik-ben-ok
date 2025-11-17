@@ -7,7 +7,9 @@
     "start": "bunx rork start -p wc3l3bj1wfo89eqzsxr2n --tunnel",
     "start-web": "bunx rork start -p wc3l3bj1wfo89eqzsxr2n --web --tunnel",
     "start-web-dev": "DEBUG=expo* bunx rork start -p wc3l3bj1wfo89eqzsxr2n --web --tunnel",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
   "dependencies": {
     "@ai-sdk/react": "^2.0.81",

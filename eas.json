@@ -8,6 +8,9 @@
       "developmentClient": true,
       "distribution": "internal",
       "node": "22.11.0",
+      "npm": {
+        "install": "--legacy-peer-deps"
+      },
       "env": {
         "EXPO_NO_BUN": "1"
       }
@@ -15,6 +18,9 @@
     "preview": {
       "distribution": "internal",
       "node": "22.11.0",
+      "npm": {
+        "install": "--legacy-peer-deps"
+      },
       "env": {
         "EXPO_NO_BUN": "1"
       }
@@ -22,6 +28,9 @@
     "production": {
       "autoIncrement": true,
       "node": "22.11.0",
+      "npm": {
+        "install": "--legacy-peer-deps"
+      },
       "env": {
         "EXPO_NO_BUN": "1"
       }

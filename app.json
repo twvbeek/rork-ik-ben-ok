@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Ik ben OK",
-    "slug": "im-ok",
+    "slug": "ik-ben-ok",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,7 +15,10 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "app.rork.im-ok"
+      "bundleIdentifier": "app.rork.im-ok",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -56,6 +59,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": "https://rork.com/"
+      },
+      "eas": {
+        "projectId": "26d726a4-d7fb-485b-89a5-e204353dc33f"
+      }
+    },
+    "owner": "timwido"
   }
 }

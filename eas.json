@@ -8,31 +8,25 @@
       "developmentClient": true,
       "distribution": "internal",
       "node": "22.11.0",
-      "npm": {
-        "install": "--legacy-peer-deps"
-      },
       "env": {
-        "EXPO_NO_BUN": "1"
+        "EXPO_NO_BUN": "1",
+        "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
       }
     },
     "preview": {
       "distribution": "internal",
       "node": "22.11.0",
-      "npm": {
-        "install": "--legacy-peer-deps"
-      },
       "env": {
-        "EXPO_NO_BUN": "1"
+        "EXPO_NO_BUN": "1",
+        "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
       }
     },
     "production": {
       "autoIncrement": true,
       "node": "22.11.0",
-      "npm": {
-        "install": "--legacy-peer-deps"
-      },
       "env": {
-        "EXPO_NO_BUN": "1"
+        "EXPO_NO_BUN": "1",
+        "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
       }
     }
   },
